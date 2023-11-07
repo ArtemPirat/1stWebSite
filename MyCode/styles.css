@@ -1,0 +1,121 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid #007BFF;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #222;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+article {
+    margin-bottom: 20px;
+    border: 1px solid #007BFF;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.btn {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+@keyframes colorChange {
+    0% {
+        color: blue;
+    }
+    10% 
+    {
+        color: darkblue;
+    }
+    20% 
+    {
+        color: lightblue;
+    }
+    30% 
+    {
+        color: blueviolet;
+    }
+    40%
+    {
+        color: purple;
+    }
+    50%
+    {
+        color: white;
+
+    }
+    60%
+    {
+        color: pink;
+    }
+    70%
+    {
+        color: blueviolet;
+    }
+    80%
+    {
+        color: lightskyblue;
+    }
+    90%
+    {
+        color: darkblue;
+    }
+    100%
+    {
+        color: blue;
+    }
+}
+
+/* Градієнт для заголовка Blog Post Title 1 */
+h2.title-1 {
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: colorChange 5s linear infinite; 
+}
+
+/* Градієнт для заголовка Blog Post Title 2 */
+h2.title-2 {
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: colorChange 5s linear infinite; 
+}
+
+/* Градієнт для заголовка Blog Post Title 3 */
+h2.title-3 {
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: colorChange 5s linear infinite; 
+}
